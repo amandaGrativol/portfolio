@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amanda Grativol | Portfolio para o Lab da DIO</title>
+  <meta name="description" content="Portfólio da desenvolvedora front-end Elidiana Andrade para compartilhar projetos e habilidades desenvolvidas.">
+
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="header__nav">
+      <ul class="menu menu--principal">
+        <li class="menu__item">
+          <a class="menu__link active" href="#home">
+            <span class="menu__text">Home</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#projetos">
+            <span class="menu__text">Projetos</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#sobre">
+            <span class="menu__text">Sobre</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#contato">
+            <span class="menu__text">Contato</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="header__brand">
+      <a href="#home">
+        <img class="brand__logo" src="assets/images/logo-ea.png" alt="Logo EA">
+      </a>
+    </div>
+    <div class="header__toggle">
+      <i id="toggleTheme" class="bi bi-sun"></i>
+    </div>
+  </header>
+  <nav class="nav--mobile">
+    <ul class="menu menu--mobile">
+      <li class="menu__item">
+        <a class="menu__link active" href="#home">
+          <i class="menu__icon bi bi-house-door"></i>
+          <span class="menu__text">Home</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#projetos">
+          <i class="menu__icon bi bi-window-stack"></i>
+          <span class="menu__text">Projetos</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#sobre">
+          <i class="menu__icon bi bi-person"></i>
+          <span class="menu__text">Sobre</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#contato">
+          <i class="menu__icon bi bi-envelope"></i>
+          <span class="menu__text">Contato</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <main id="home">
+    <div class="main__content1">
+      <h1><b>Soluções Criativas &</b> Desenvolvimento de software</h1>
+      <p>Amanda Grativol, Campinas-SP, Desenvolvedora Back-End</p> 
+      <ul class="menu menu--social">
+        <li>
+          <a class="menu__link" href="https://github.com/elidianaandrade" target="_blank">
+            <i class="menu__icon bi bi-github"></i>
+          </a>
+        </li>
+        <li>
+          <a class="menu__link" href="https://www.linkedin.com/in/amanda-grativol/" target="_blank">
+            <i class="menu__icon bi bi-linkedin"></i>
+          </a>
+        </li>
+        <li>
+          <a class="menu__link" href="" target="_blank">
+            <i class="menu__icon bi bi-instagram"></i>
+          </a>
+        </li>
+      </ul>
+      <a href="#projetos">
+        <button class="btn btn--primary">
+          <span>Ver Projetos</span>
+          <i class="bi bi-arrow-down-right"></i>
+        </button>  
+      </a>
+    </div>
+  </main>
+
+  <section class="technologies">
+    <h2>Conhecimento nas principais tecnologias do mercado</h2>
+    <ul class="technologies__list">
+      <li class="technologies__item">
+        <img class="technologies__logo" src="assets/images/technologies/Angular.svg" alt="Logo Angular">
+      </li>
+      <li class="technologies__item">
+        <img class="technologies__logo" src="assets/images/technologies/TypeScript.svg" alt="Logo TypeScript">
+      </li>
+      <li class="technologies__item">
+        <img class="technologies__logo" src="assets/images/technologies/Bootstrap.svg" alt="Logo Bootstrap">
+      </li>
+      <li class="technologies__item">
+        <img class="technologies__logo" src="assets/images/technologies/SASS.svg" alt="Logo SASS">
+      </li>
+    </ul>
+  </section>
+
+  <section id="projetos" class="projects">
+    <h2>Projetos</h2>
+    <div class="projects__container">
+      <div class="projects__card">
+        <img class="card__cover" src="assets/images/projects/1.png" alt="Capa Educação em Páginas">
+        <div class="card__body">
+          <h3 class="card__title">Educação em Páginas</h3>
+          <p class="card__description">Plataforma de engajamento social</p>
+          <ul class="card__list">
+            <li class="card__item">Feed de textos;</li>
+            <li class="card__item">Área de leitura;</li>
+            <li class="card__item">Formulário</li>
+          </ul>
+          <ul class="technologies__list">
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/Angular.svg" alt="Logo Angular">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/TypeScript.svg" alt="Logo TypeScript">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/Bootstrap.svg" alt="Logo Bootstrap">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/SASS.svg" alt="Logo SASS">
+            </li>
+          </ul>
+          <div class="card__buttons">
+            <button class="btn btn--primary" onclick="window.location.href='https://educacaoempaginas.vercel.app/index.html'">
+              <span>Prévia</span>
+              <i class="bi bi-arrow-up-right"></i>
+            </button>  
+            <button class="btn">
+              <span>Repositório</span>
+            </button>  
+          </div>
+        </div>
+      </div>
+      <div class="projects__card card--reverse">
+        <img class="card__cover" src="assets/images/projects/2.png" alt="Capa piano">
+        <div class="card__body">
+          <h3 class="card__title">Piano Simulator</h3>
+          <p class="card__description">Um projeto com um piano simples para tocar pela internet.</p>
+          <ul class="card__list">
+            <li class="card__item">Função de ajuda para tocar;</li>
+            <li class="card__item">Volume;</li>
+            <li class="card__item">Back-End development.</li>
+          </ul>
+          <ul class="technologies__list">
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/Angular.svg" alt="Logo Angular">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/TypeScript.svg" alt="Logo TypeScript">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/Bootstrap.svg" alt="Logo Bootstrap">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/SASS.svg" alt="Logo SASS">
+            </li>
+          </ul>
+          <div class="card__buttons" onclick="window.location.href='https://piano-simulator-bice.vercel.app/'">
+            <button class="btn btn--primary">
+              <span>Prévia</span>
+              <i class="bi bi-arrow-up-right"></i>
+            </button>  
+            <button class="btn">
+              <span>Repositório</span>
+            </button>  
+          </div>
+        </div>
+      </div>
+      <div class="projects__card">
+        <img class="card__cover" src="assets/images/projects/3.png" alt="Capa Games Store">
+        <div class="card__body">
+          <h3 class="card__title">Jogo da memória</h3>
+          <p class="card__description">Jogo funcional com tema Pokemon.</p>
+          <ul class="card__list">
+            <li class="card__item">Animação;</li>
+            <li class="card__item">Reiniciar;</li>
+            <li class="card__item">Aviso se ganhou.</li>
+          </ul>
+          <ul class="technologies__list">
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/Angular.svg" alt="Logo Angular">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/TypeScript.svg" alt="Logo TypeScript">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/Bootstrap.svg" alt="Logo Bootstrap">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/SASS.svg" alt="Logo SASS">
+            </li>
+          </ul>
+          <div class="card__buttons">
+            <button class="btn btn--primary">
+              <span>Prévia</span>
+              <i class="bi bi-arrow-up-right"></i>
+            </button>  
+            <button class="btn">
+              <span>Repositório</span>
+            </button>  
+          </div>
+        </div>
+      </div>
+      <a href="https://github.com/amandaGrativol">
+        <button class="btn btn--primary">
+          <span>Ver Todos os Projetos</span>
+          <i class="bi bi-arrow-up-right"></i>
+        </button>  
+      </a>
+    </div>
+  </section>
+
+  <section id="sobre" class="about">
+    <div class="about__content1">
+      <img class="about__photo" src="assets/images/SAM_8234.JPG" alt="">
+      <div class="about__description">
+        <h2>Sobre mim</h2>
+        <p>Olá, sou a Amanda! Sou apaixonada por tecnologia, aprendizado constante e pela criação de soluções que impactam vidas. Atualmente, estou me especializando como desenvolvedora Back-End, unindo minha experiência em engenharia de software e minha paixão por resolver problemas de forma eficiente e criativa.
+
+          Minha trajetória inclui a formação técnica em informática e o curso de Engenharia de Software, onde desenvolvi habilidades em programação, manutenção de sistemas e gerenciamento de redes. Sempre em busca de novos desafios, meu foco é criar projetos que unem funcionalidade, inovação e qualidade.
+          
+          Quando não estou programando, dedico meu tempo a projetos pessoais e ao aprimoramento das minhas habilidades, com a visão de crescer e contribuir no mundo da tecnologia.
+          
+          Bem-vindo(a) ao meu espaço! Aqui, compartilho um pouco do meu trabalho, experiências e projetos.
+        </p>  
+        <div class="about__icons">
+          <i class="bi bi-translate"></i>
+          <span>Inglês: Intermediário | Espanhol: Básico</span>
+        </div>
+        <div class="description__buttons">
+          <a href="https://www.linkedin.com/in/amanda-grativol/" target="_blank">
+            <button class="btn btn--primary">
+              <span>Conecte-se Comigo</span>
+              <i class="bi bi-arrow-up-right"></i>
+            </button> 
+          </a>
+          <a href="">
+            <button class="btn">
+              <span>Currículo</span>
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="about__content2">
+      <div class="col1">
+        <div class="row1">
+          <h3>Formação</h3>
+          <h4>Bacharelado em engenharia de software</h4>
+          <span>Jan 2023 - Atualmente</span>
+          <div class="about__icons">
+            <i class="bi bi-bank"></i>
+            <span>Universidade São Francisco</span>
+          </div>
+          <div class="about__icons">
+            <i class="bi bi-mortarboard"></i>
+            <span>Tecnico em informática - SENAC</span>
+          </div>
+        </div>
+      </div>
+      <div class="col2">
+        <h3>Cursos</h3>
+        <div id="accordion">
+          <div class="accordion__item active">
+            <button class="accordion__header start">
+              <span>Desenvolvimento de aplicativos Android</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body">
+              <p>
+                CEPROCAMP. Jun 2022. 200h.
+              </p>
+              <p>
+                conhecimento à plataforma Android, ambiente de desenvolvimento, Interface com usuário. Serviços, Armazenamento de dados persistentes, Localização e mapeamento, Comunicação entre processos, Acesso a recursos de telefonia. Serviços e tarefas para execução em segundo plano. Compartilhamento de dados entre aplicações. Mapas e GPS e Publicação na Google Play. 
+              </p>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <button class="accordion__header">
+              <span>Formação profissional em Cibersegurança</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body">
+              <p>
+                CISCO. Abr 2022. 170h.
+              </p>
+              <p>
+                Fundamentos em Cibersegurança - 30h;
+                CCNA Redes - 70h;
+                CyberOps Associate - 70h.
+              </p>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <button class="accordion__header end">
+              <span>
+                DESIGN DE PLATAFORMAS DIGITAIS E EXPERIÊNCIA DO USUÁRIO
+              </span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body end">
+              <p>
+                Escola técnica sequencial. Abr 2022. 120h
+              </p>
+              <p>
+                Aprendizado de UI/UX Desing, introdução ao figma, app/web prototype
+              </p>
+            </div>
+          </div>
+        </div>
+  </section>
+  
+  <section id="contato" class="contact">
+    <h2>Contate-me</h2>
+    <p>Estou disponível para serviços e novas conexões. Contate-me via 
+      e-mail e conecte-se comigo através das minhas redes sociais.
+    </p>
+    <ul class="menu menu--social">
+      <li>
+        <a class="menu__link" href="https://github.com/amandaGrativol" target="_blank">h
+          <i class="menu__icon bi bi-github"></i>
+          <span>GitHub</span>
+        </a>
+      </li>
+      <li>
+        <a class="menu__link" href="https://www.linkedin.com/in/amanda-grativol/" target="_blank">
+          <i class="menu__icon bi bi-linkedin"></i>
+          <span>LinkedIn</span>
+        </a>
+      </li>
+      <li>
+        <a class="menu__link" href="" target="_blank">
+          <i class="menu__icon bi bi-instagram"></i>
+          <span>Instagram</span>
+        </a>
+      </li>
+    </ul>
+    <a href="amandagratival.com">
+      <button class="btn btn--primary">
+        <span class="email">amandagratival@gmail.com</span>
+      </button>  
+    </a>
+  </section>
+
+  <footer>
+    <p>
+      © 2023. Portfólio desenvolvido para fins educativos no Lab "Construindo seu Portfolio Front-end do Zero" da 
+      <a href="https://www.dio.me/" target="_blank">Digital Innovation One</a> por 
+      <a href="https://github.com/amandaGrativol" target="_blank">Elidiana Andrade</a>.
+    </p>
+  </footer>
+  <script src="assets/js/scripts.js"></script>
+</body>
+</html>
